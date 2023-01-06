@@ -28,12 +28,7 @@ func main() {
 	}
 
 	// create auth and transaction package for deploying smart contract
-	//auth := getAccountAuth(client, "fd4eef6dec5575cc78f3f14d4b749094f8b88ad7883caaa8d1d24e9a01e3732d")
-	auth := getAccountAuth(client, "ea9816250aa83b4dd8d265f9cde9acbc0b2599a0864e907aa84cbe68cd9d26e4")
-
-	// 0x60C749BcaD846C837a27Ec77B193Fa5c104018E0
-	// 85512b9a6c3a48a5dfa8bff67e9a95bd3313bc21b36a6283137c8842a6c380f2
-	//auth := getAccountAuth(client, "85512b9a6c3a48a5dfa8bff67e9a95bd3313bc21b36a6283137c8842a6c380f2")
+	auth := getAccountAuth(client, "fd4eef6dec5575cc78f3f14d4b749094f8b88ad7883caaa8d1d24e9a01e3732d")
 
 	//deploying smart contract
 	address, tx, instance, err := api.DeployApi(auth, client)

@@ -39,12 +39,12 @@ Import `blockChain.postman_collection.json`
 `curl --location --request POST 'http://localhost:1323/deposite/50' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "accountPrivateKey":"fd4eef6dec5575cc78f3f14d4b749094f8b88ad7883caaa8d1d24e9a01e3732d"
+    "accountPrivateKey":"xxxxxxx"
 }'`
 
 4. to withdrawl 10 :- 
 `curl --location --request POST 'http://localhost:1323/withdrawl/50' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "accountPrivateKey":"fd4eef6dec5575cc78f3f14d4b749094f8b88ad7883caaa8d1d24e9a01e3732d"
+    "accountPrivateKey":"xxxxxxxx"
 }'`
